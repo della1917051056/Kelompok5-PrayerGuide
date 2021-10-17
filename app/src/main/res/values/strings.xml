@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyNavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_tata_cara_wudhu">Tata Cara Wudhu</string>
+    <string name="menu_bacaan_sholat_wajib">Bacaan Sholat Wajib</string>
+    <string name="menu_bacaan_sholat_sunnah">Bacaan Sholat Sunnah</string>
+    <string name="menu_dzikir">Dzikir</string>
+    <string name="menu_tahlil">Tahlil</string>
+    <string name="content_text">Content Text</string>
+    <string name="content_specs_display">Content Specs Display</string>
+    <string name="content_specs_size">Content Specs Size</string>
+    <string name="content_specs_battery">Content Specs Battery</string>
+
+    <string name="panduan_sholat">Panduang Sholat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
