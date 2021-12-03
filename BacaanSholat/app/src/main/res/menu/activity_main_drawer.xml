@@ -1,1 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_wudhu"
+            android:icon="@drawable/ic_wudhu"
+            android:title="@string/menu_tata_cara_wudhu" />
+        <item
+            android:id="@+id/nav_wajib"
+            android:icon="@drawable/ic_bacaan_shalat"
+            android:title="@string/menu_bacaan_sholat_wajib" />
+        <item
+            android:id="@+id/nav_sunnah"
+            android:icon="@drawable/ic_bacaan_shalat"
+            android:title="@string/menu_bacaan_sholat_sunnah" />
+        <item
+            android:id="@+id/nav_dzikir"
+            android:icon="@drawable/ic_dzikir"
+            android:title="@string/menu_dzikir" />
+
+    </group>
+
+
+</menu>
