@@ -1,2 +1,541 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_dzikir"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.dzikir.DzikirFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/pict_dzikir"
+                android:scaleType="fitXY"/>
 
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Mu adh Ibn Jabal R.A berkata bahwa Rasulullah SAW bersabda, "Anak Adam tidak pernah melakukan perbuatan yang membawa jaminan keselamatan kepadanya, dari hukuman Allah lebih dari mengingat Allah SWT," (Shahih Al-Jaami 5633).'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="Bacaan Dzikir"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Berikut ini urutan dzikir yang bisa dibaca setelah melaksanakan shalat fardhu maupun shalat sunah :"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="1. Membaca Istighfar 3x"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="أَسْتَغْفِرُ اللهَ الْعَظِـيْمِ الَّذِيْ لَااِلَهَ اِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ وَأَتُوْبُ إِلَيْهِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : "Saya mohon ampun kepada Allah yang maha besar, tidak ada tuhan melainkan dia, yang maha hidup yang terus-menerus mengurus makhluknya, dan saya bertobat kepadanya.”'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="2. Membaca Laa Ilaaha Illallah 3X"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="لَااِلَهَ اِلَّا اللهُ وَحْدَهُ لَاشَرِيْكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِ وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْئٍ قَدِيْر"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Tidak ada Ilah yang berhak diibadahi dengan benar melainkan hanya Allah Yang Maha Esa, tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya segala pujian dan Dia Maha Kuasa atas segala sesuatu.”'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="3. Memohon perlindungan dari siksa neraka"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="اَللَّهُمَّ أَجِرْنِـى مِنَ النَّارِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Ya Allah, lindungilah kami dari api neraka.” (Dibaca 3X)'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="اَللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مَنْكَ الْجَدُّ, لاَ إِلَهَ إِلاَّ أَنْتَ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Ya Allah tidak ada yang menghalangi bagi apa yang telah Engkau berikan dan tidak kepada orang yang kaya di sisi Engkau segala kekayaanya selain dari kebesaran-Mu ya Rabb. Tidak ada Tuhan yang layak disembah selain Engkau.”'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="4. Memuji Allah dengan Doa Keselamatan"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="للَّهُمَّ أَنْتَ السَّلاَمُ، وَمِنْكَ السَّلَامُ، وَإِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَارَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا الْـجَنَّةَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَاالْـجَلَالِ وَاْلإِكْرَام"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Ya allah, engkau adalah zat yang mempunyaikesejahtraan dan daripadamulah kesejahtraan itu da kepadamulah akan kembali lagi segala kesejahtraan itu, maka hidupkanlah kami ya allah dengan sejahtera. dan masukanlah kami kedalam surga kampung kesejahtraan, engkaulah yang kuasa memberi berkah yang banyak dan engkaulah yang maha tinggi, wahai zat yang memiliki ke agungan dan kemulyaan.”'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="5. Membaca Surat Al-Fatihah"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="سُبْحَانَ اللهأَعُوْذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ: بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ ﴿١﴾ الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ ﴿٢﴾ الرَّحْمَـٰنِ الرَّحِيمِ ﴿٣﴾ مَالِكِ يَوْمِ الدِّينِ ﴿٤﴾إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٦﴾صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٧﴾أمين"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : "(1)Dengan nama Allah Yang Maha Pengasih, Maha Penyayang (2) Segala puji bagi Allah, Tuhan seluruh alam, (3) Yang Maha Pengasih, Maha Penyayang, (4) Pemilik hari pembalasan. (5) Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan. (6) Tunjukilah kami jalan yang lurus (7) (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat. "'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="6. Membaca Ayat Kursi"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ. بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ. اَللهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَأْخُذُهُ سِنَةٌ وَّلَانَوْمٌ، لَهُ مَافِي السَّمَاوَاتِ وَمَافِي اْلأَرْضِ مَن ذَا الَّذِيْ يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَابَيْنَ أَيْدِيْهِمْ وَمَاخَلْفَهُمْ وَلَا يُحِيْطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَآءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَاْلأَرْضَ وَلَا يَـؤدُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيْمُ.ِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Allah, tidak ada tuhan selain dia, yang maha hidup, yang terus menerus mengurus (makhluknya), tidak mengantuk dan tidak tidur, miliknya apa yang ada di langit dan apa yang ada di bumi, tidak ada yang dapat memberi syafaat disisinya tanpa izinnya. dia mengetahui apa yang ada dihadapan mereka dan apa yang di belakang mereka, dan mereka tidak mengetahui sesuatu apapun tentang ilmunya melainkan apa yang dia kehendaki, kursinya meliputi langit dan bumi. dan dia tidak merasa berat memelihara keduanya, dan dia maha tinggi, maha besar.'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="7. Membaca Surat Ali Imran: 18-19"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="شَهِدَ اللّٰهُ اَنَّهٗ لَآ اِلٰهَ اِلَّا هُوَۙ وَالْمَلٰۤىِٕكَةُ وَاُولُوا الْعِلْمِ قَاۤىِٕمًاۢ بِالْقِسْطِۗ لَآ اِلٰهَ اِلَّا هُوَ الْعَزِيْزُ الْحَكِيْمُ اِنَّ الدِّيْنَ عِنْدَ اللّٰهِ الْاِسْلَامُۗ وَمَا اخْتَلَفَ الَّذِيْنَ اُوْتُوا الْكِتٰبَ اِلَّا مِنْۢ بَعْدِ مَا جَاۤءَهُمُ الْعِلْمُ بَغْيًاۢ بَيْنَهُمْۗ وَمَنْ يَّكْفُرْ بِاٰيٰتِ اللّٰهِ فَاِنَّ اللّٰهَ سَرِيْعُ الْحِسَابِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : "Allah menyatakan bahwasanya tidak ada tuhan (yang berhak disembah) melainkan Dia, Yang menegakkan keadilan. Para Malaikat dan orang-orang yang berilmu (juga menyatakan yang demikian itu). Tak ada Ilah (yang berhak disembah) melainkan Dia, Yang Maha Perkasa lagi Maha Bijaksana.'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="8. Membaca tasbih, tahmid, dan takbir 33 kali."
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="سُبْحَانَ اللهِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Mahasuci Allah" ( 33x)'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="اَلْحَمْدُلِلهِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Segala puji bagi Allah" ( 33x)'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="اَللهُ اَكْبَرْ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Allah maha besar" ( 33x)'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="9. Membaca Takbir, Tahmid, dan Tasbih"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=" ِاللهُ اَكْبَرُ كَبِيْرَا وَالْحَمْدُ للهِ كَثِيْرًا وَسُبْحَانَ اللهِ بُكْرَةً وَأَصِيْلًا لَااِلَهَ اِلَّا اللهُ وَحْدَهُ لَاشَرِيْكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِ وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْئٍ قَدِيْرٌ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّالْعَظِيْم"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="10. Membaca Istighfar dan Tahlil"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="ِأَسْتَغْفِرُ اللهَ الْعَظِيْمَ، ِأَسْتَغْفِرُ اللهَ الْعَظِيْمَ، ِأَسْتَغْفِرُ اللهَ الْعَظِيْمَ ، أَفْضَلُ الذِّكْرِ لَااِلَهَ اِلَّا اللهُ  لَااِلَهَ اِلَّا اللهُ ×٣٣ أتو ٤٠ كالي  "
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="11. Membaca Surat Al-Ikhlas, Al-Falaq, dan An-Naas"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="قُلْ هُوَ اللَّهُ أَحَدٌ ﴿١﴾ للَّهُ الصَّمَدَُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدِْ ﴿٣﴾ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَد ﴿٤﴾"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “(1) Dialah Allah, Yang Maha Esa. (2) Allah tempat bergantung kepada-Nya segala sesuatu. (3) Dia tiada beranak dan tidak pula diperanakkan, (4) dan tidak ada seorangpun yang setara dengan Dia".'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ﴿١﴾ مِن شَرِّ مَا خَلَقََ ﴿٢﴾ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَِ ﴿٣﴾ وَمِن شَرِّالنَّفَّاثَاتِ فِي الْعُقَدِ ﴿٤﴾ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ﴿٥﴾ "
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “(1) Aku berlindung kepada Robb Yang Menguasai waktu subuh, (2) dari kejahatan apa-apa (mahluk) yang diciptakan-Nya. (3) Dan dari kejahatan malam apabila telah gelap gulita, (4) dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul, (5) dan dari kejahatan orang-orang yang dengki apabila ia dengki”'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="قُلْ أَعُوذُ بِرَبِّ النَّاسِ ﴿١﴾ مَلِكِ النَّاسَِ ﴿٢﴾ إِلَهِ النَّاسِِ ﴿٣﴾ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ﴿٤﴾ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ﴿٥﴾ مِنَ الْجِنَّةِ وَ النَّاسَِْ ﴿٦﴾"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “(1) Aku berlindung kepada Robb (yang memelihara dan menguasai) manusia. (2) Raja manusia. (3) Sembahan manusia. (4) Dari kejahatan (bisikan) syaitan yang biasa bersembunyi, (5) yang membisikkan (kejahatan) ke dalam dada manusia, (6) dari (golongan) jin dan manusia."'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="12. Selesai berdzikir dilanjutkan dengan berdoa"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ. اَلْحَمْدُ ِللهِ رَبِّ الْعَالَمِيْنَ. حَمْدًا يُوَافِىْ نِعَمَهُ وَيُكَافِئُ مَزِيْدَهُ. يَارَبَّنَالَكَ الْحَمْدُ وَلَكَ الشُّكْرُ كَمَا يَنْبَغِىْ لِجَلاَلِ وَجْهِكَ وَعَظِيْمِ سُلْطَانِكَ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Dengan nama Allah Yang Maha Pengasih Lagi Maha Penyayang. Segala puji bagi Allah Tuhan Semesta Alam. Pujian yang sebanding dengan nikmat-nikmatNya dan menjamin tambahannya. Wahai Tuhan kami, bagi-Mu-lah segala puji, dan bagi-Mu-lah segalah syukur, sebagaimana layak bagi keluhuran zat-Mu dan keagungan kekuasaan-Mu.”.'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلى آلِ سَيِّدِنَا مُحَمَّدٍ. صَلاَةً تُنْجِيْنَابِهَا مِنْ جَمِيْعِ اْلاَهْوَالِ وَاْلآفَاتِ. وَتَقْضِىْ لَنَابِهَا جَمِيْعَ الْحَاجَاتِ.وَتُطَهِّرُنَا بِهَا مِنْ جَمِيْعِ السَّيِّئَاتِ. وَتَرْفَعُنَابِهَا عِنْدَكَ اَعْلَى الدَّرَجَاتِ. وَتُبَلِّغُنَا بِهَا اَقْصَى الْغَيَاتِ مِنْ جَمِيْعِ الْخَيْرَاتِ فِى الْحَيَاةِ وَبَعْدَ الْمَمَاتِ اِنَّهُ سَمِيْعٌ قَرِيْبٌ مُجِيْبُ الدَّعَوَاتِ وَيَاقَاضِىَ الْحَاجَاتِِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Wahai Allah, limpahkanlah rahmat dan kesejahteraan kepada penghulu kami, Nabi Muhammad dan keluarganya, yaitu rahmat yang dapat menyelamatkan kami dari segala ketakutan dan penyakit, yang dapat memenuhi segala kebutuhan kami, yang dapat mensucikan diri kami dari segala keburukan, yang dapat mengangkat derajat kami ke derajat tertinggi di sisi-Mu, dan dapat menyampaikan kami kepada tujuan maksimal dari segala kebaikan, baik semasa hidup maupun sesudah mati. Sesunggunya Dia (Allah) Maha Mendengar, Maha Dekat, lagi Maha Memperkenankan segala doa dan permohonan. Wahai Dzat yang Maha Memenuhi segala kebutuhan Hamba-Nya."'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="اَللّٰهُمَّ اِنَّا نَسْئَلُكَ سَلاَمَةً فِى الدِّيْنِ وَالدُّنْيَا وَاْلآخِرَةِ وَعَافِيَةً فِى الْجَسَدِ وَصِحَّةً فِى الْبَدَنِ وَزِيَادَةً فِى الْعِلْمِ وَبَرَكَةً فِى الرِّزْقِ وَتَوْبَةً قَبْلَ الْمَوْتِ وَرَحْمَةً عِنْدَ الْمَوْتِ وَمَغْفِرَةً بَعْدَ الْمَوْتِ. اَللّٰهُمَّ هَوِّنْ عَلَيْنَا فِىْ سَكَرَاتِ الْمَوْتِ وَالنَّجَاةَ مِنَ النَّارِ وَالْعَفْوَ عِنْدَ الْحِسَابِ"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text='Artinya : “Wahai Allah! Sesungguhnya kami memohon kepadaMu, kesejahteraan dalam agama, dunia dan akhirat, keafiatan jasad, kesehatan badan, tambahan ilmu, keberkahan rezeki, taubat sebelum datang maut, rahmat pada saat datang maut, dan ampunan setelah datang maut. Wahai Allah! Permudahkanlah kami dalam menghadapi sakaratul maut, (Berilah kami) keselamatan dari api neraka, dan ampunan pada saat dilaksanakan hisab."'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+</ScrollView>
