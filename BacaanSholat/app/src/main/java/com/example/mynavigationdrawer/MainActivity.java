@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navView = findViewById(R.id.nav_view);
 
-        profileCircleImageView = navView.getHeaderView(0).findViewById(R.id.imageView);
+        profileCircleImageView = navView.getHeaderView(0).findViewById(R.id.logo_aplikasi);
         Glide.with(MainActivity.this)
                 .load(profileImageUrl)
                 .into(profileCircleImageView);
