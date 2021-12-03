@@ -16,7 +16,7 @@ tools:context="com.example.mynavigationdrawer.MainActivity">
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
+        android:background="#917521"
         app:popupTheme="@style/Theme.MyNavigationDrawer.PopupOverlay" />
 
 </com.google.android.material.appbar.AppBarLayout>
