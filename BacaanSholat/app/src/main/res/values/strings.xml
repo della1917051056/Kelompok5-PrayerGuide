@@ -4,6 +4,7 @@
     <string name="navigation_drawer_close">Close PrayerGuide</string>
     <string name="nav_header_title">Panduan Shalat</string>
     <string name="nav_header_subtitle">Created by Kelompok 5</string>
+    <string name="nav_header_desc">Navigation header</string>
 
 
     <string name="menu_dashboard">Dashboard</string>
@@ -21,6 +22,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="qabliyah_subuh">Qabliyah Subuh</string>
+    <string name="qabliyah_dzuhur">Qabliyah Dzuhur</string>
 
 
 </resources>
