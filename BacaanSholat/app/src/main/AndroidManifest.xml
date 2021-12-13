@@ -7,10 +7,77 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyNavigationDrawer">
+        <activity
+            android:label="@string/menu_bacaan_sholat_wajib"
+            android:name=".ui.wajib.MaghribActivity"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_wajib"
+            android:name=".ui.wajib.AsharActivity"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_wajib"
+            android:name=".ui.wajib.DzuhurActivity"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_wajib"
+            android:name=".ui.wajib.SubuhActivity"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_wajib"
+            android:name=".ui.wajib.IsyaActivity"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_wajib"
+            android:name=".ui.wajib.WajibActivity"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveTahajud"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveDhuha"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveBisya"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveBmaghrib"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveBdzuhur"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveQisya"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveQmaghrib"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveQashar"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveQdzuhur"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.MoveQsubuh"
+            android:exported="true" />
+        <activity
+            android:label="@string/menu_bacaan_sholat_sunnah"
+            android:name=".ui.sunnah.SunnahActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

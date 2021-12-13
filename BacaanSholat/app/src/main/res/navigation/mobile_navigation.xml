@@ -15,17 +15,17 @@
         android:id="@+id/nav_wudhu"
         android:name="com.example.mynavigationdrawer.ui.wudhu.WudhuFragment"
         android:label="@string/menu_tata_cara_wudhu"
-        tools:layout="@layout/fragment_wudhu" />
+        tools:layout="@layout/fragment_cara_wudhu" />
 
-    <fragment
+    <Activity
         android:id="@+id/nav_wajib"
-        android:name="com.example.mynavigationdrawer.ui.wajib.WajibFragment"
+        android:name="com.example.mynavigationdrawer.ui.wajib.WajibActivity"
         android:label="@string/menu_bacaan_sholat_wajib"
         tools:layout="@layout/fragment_wajib" />
 
-    <fragment
+    <Activity
         android:id="@+id/nav_sunnah"
-        android:name="com.example.mynavigationdrawer.ui.sunnah.SunnahFragment"
+        android:name="com.example.mynavigationdrawer.ui.sunnah.SunnahActivity"
         android:label="@string/menu_bacaan_sholat_sunnah"
         tools:layout="@layout/fragment_sunnah" />
 
@@ -34,10 +34,5 @@
         android:name="com.example.mynavigationdrawer.ui.dzikir.DzikirFragment"
         android:label="@string/menu_dzikir"
         tools:layout="@layout/fragment_dzikir" />
-    <fragment
-        android:id="@+id/nav_tahlil"
-        android:name="com.example.mynavigationdrawer.ui.tahlil.TahlilFragment"
-        android:label="@string/menu_tahlil"
-        tools:layout="@layout/fragment_tahlil" />
 
 </navigation>
